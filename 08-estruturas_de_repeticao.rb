@@ -1,3 +1,4 @@
+=begin
 i = 1
 
 while i <= 50 # enquanto for verdadeiro
@@ -13,3 +14,8 @@ until i <= 0 # enquanto for falso
 end
 
 puts "Fim !"
+=end
+
+v = "Pedro"
+
+5.times { |x| puts "#{x} - " + v}
